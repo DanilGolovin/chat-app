@@ -1,0 +1,149 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, ul, li, hr {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    padding: 12px;
+    background: #7C5CBF;
+    border: none;
+    color: white;
+    font-size: 16px;
+    transition: background .3s ease;
+}
+
+
+input {
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    outline: none;
+    width: 100%;
+}
+
+
+button:hover {
+    background: #6b47b8;
+}
+
+button:disabled {
+    cursor: default;
+    background: #7c5cbf94;
+}
+/*main page*/
+.displayFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.bgColor-darkviolet {
+    background-color: #20BB;
+}
+
+header {
+    height: 5vh;
+}
+main {
+    height: 95vh;
+    display: flex;
+}
+
+.title {
+    height: 100%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 15vw;
+    background-color: #112230;
+    text-align: center;
+}
+
+.sidebar li {
+    list-style-type: none;
+}
+
+.room-title {
+    background-color: #000;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-title {
+    padding: 10px;
+}
+
+.users {
+    padding: 10px;
+}
+
+.chat {
+    max-height: 100%;
+    width: 85vw;
+    overflow-y: scroll;
+    position: relative;
+    margin: 15px;
+    border: 1px solid lightgray;
+}
+
+.chatForm {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+}
+
+.chat-messages {
+    padding: 0 15px;
+}
+
+.messageName {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#message-form {
+    width: 85%;
+    display: flex;
+}
+
+/*Join page*/
+
+.form-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #002233;
+}
+
+.form {
+    background-color: whitesmoke;
+    height: 400px;
+    width: 380px;
+}
+
+.form-padding {
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.chat-label {
+    padding: 30px 0 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.join-button {
+    margin-top: 50px;
+}
